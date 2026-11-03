@@ -16,6 +16,15 @@ const HOME_ITEMS: readonly SidebarItemDefinition[] = [
     icon: "home",
     exact: true,
   },
+  {
+    id: "chat",
+    href: "/dashboard/chat",
+    i18nKey: "chat",
+    labelFallback: "Chat",
+    subtitleKey: "chatSubtitle",
+    subtitleFallback: "Talk to any model in a workspace",
+    icon: "chat",
+  },
 ];
 
 const OMNI_PROXY_ITEMS: readonly SidebarItemDefinition[] = [
